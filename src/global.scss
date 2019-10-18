@@ -24,3 +24,22 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+//---------------------------- Fonts ---------------------------------------------------------
+
+@font-face {
+    font-family: 'Avenir Light';
+    src: url('./assets/fonts/light/avenir_35_light-webfont.woff2') format('woff2'),
+         url('./assets/fonts/light/avenir_35_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Medium';
+    src: url('./assets/fonts/medium/avenir_65_medium-webfont.woff2') format('woff2'),
+         url('./assets/fonts/medium/avenir_65_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+  

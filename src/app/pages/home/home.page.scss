@@ -1,1 +1,27 @@
+.main-content{
+  padding: 47px 17px;
+  background-color: rgba(30, 30, 30, 1);
+  color: var(--ion-color-primary-contrast);
+}
 
+.logo{
+  background-image: url("../../../assets/logo.svg");
+  background-repeat: no-repeat;
+  height: 36px;
+  background-position: center center;
+}
+
+.categories{
+  display: flex;
+  justify-content: space-between;
+  height: 35px;
+  .pill{
+    padding: 3px 6px;
+    border: 1px solid var(--ion-color-secondary);	
+    border-radius: 17.5px;
+    &.activated{
+      background-color: var(--ion-color-primary);
+      border: 1px solid var(--ion-color-primary);	
+    }
+  }
+}

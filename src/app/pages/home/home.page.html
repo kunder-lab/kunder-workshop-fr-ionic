@@ -1,14 +1,42 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+  <div class="main-content">
+    <div class="logo"></div>
+    <div class="categories">
+      <div class="pill activated">Sitcom
+      </div>
+      <div class="pill">Teleseries
+      </div>
+      <div class="pill">Dibujos Animados
+      </div>
+    </div>
+    <div class="category-title">
+      Sitcom
+    </div>
+    <div class="series-list">
+      <div class="serie-container" (click)="goToSeriesList()">
+        <img src="../../../assets/img/sitcom-alf-1.jpg">
+        <div>
+          <div class="serie-title">Alf</div>
+          <div class="serie-favorite">3</div>
+          <div class="serie-chapters">21</div>
+        </div>
+      </div>
+      <div class="serie-container" (click)="goToSeriesList()">
+        <img src="../../../assets/img/sitcom-sabrina3.jpg">
+        <div>
+          <div class="serie-title">Sabrina, La Bruja Adolescente</div>
+          <div class="serie-favorite">3</div>
+          <div class="serie-chapters">22</div>
+        </div>
+      </div>
+      <div class="serie-container" (click)="goToSeriesList()">
+        <img src="../../../assets/img/sitcom-freshprince3.jpg">
+        <div>
+          <div class="serie-title">El Príncipe de Bel-Air</div>
+          <div class="serie-favorite">3</div>
+          <div class="serie-chapters">24</div>
+        </div>
+      </div>
+    </div>
   </div>
 </ion-content>

@@ -1,9 +1,11 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>serie-list</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button (click)="goBack()"></ion-back-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <p> serieId: {{ serieId }} </p>
 </ion-content>
