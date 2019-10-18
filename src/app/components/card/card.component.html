@@ -1,0 +1,17 @@
+<div class="card-container">
+  <img class="card-image" [src]="src" alt="">
+  <div class="card-info">
+    <div>
+      Alf
+    </div>
+    <div class="que-feo">
+      <div class="like" (click)="likeDislike()" [class.liked]="isLiked">
+          <img src="../../../assets/img/check.svg">
+      </div>
+      <div class="que-atros">
+        <span>21</span>
+        <img src="../../../assets/img/episodes.svg">
+      </div>
+    </div>
+  </div>
+</div>

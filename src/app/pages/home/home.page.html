@@ -1,14 +1,26 @@
-<ion-header>
+<ion-header class="header">
   <ion-toolbar>
     <ion-title>
-      Ionic Blank
+      <img src="../../../assets/img/logo.svg">
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+  <div class="filters">
+    <ion-chip class="filter-button selected">Sitcom</ion-chip>
+    <ion-chip class="filter-button">Teleserie</ion-chip>
+    <ion-chip class="filter-button">Dibujo Animado</ion-chip>
+  </div>
+  <div class="list-container">
+    <h1 class="title">
+      Sitcom
+    </h1>
+    <div class="cards-container">
+      <app-card src="https://s3.amazonaws.com/dev.kunder.img/workshop/sitcom-alf-1.jpg"></app-card>
+      <app-card src="https://s3.amazonaws.com/dev.kunder.img/workshop/sitcom-sabrina3.jpg"></app-card>
+      <app-card src="https://s3.amazonaws.com/dev.kunder.img/workshop/t-romane-1.jpg"></app-card>
+      <app-card src="https://s3.amazonaws.com/dev.kunder.img/workshop/t-romane-1.jpg"></app-card>
+    </div>
   </div>
 </ion-content>

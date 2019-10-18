@@ -1,1 +1,21 @@
 
+.filters {
+    display: flex;
+    justify-content: space-evenly;
+    height: 60px;
+    align-items: center;
+    .filter-button {
+        background-color: black;
+        border: 1px solid grey;
+        color: white;
+        padding: 15px 18px;
+        &.selected{
+            border: 1px solid pink;
+            background-color: pink;
+        }
+    }
+}
+
+.list-container {
+  padding: 0 17px;
+}
